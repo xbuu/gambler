@@ -8,6 +8,11 @@ friend
 
 v1.01 - Improved stuff
 
+#[ Gambler Bugs ]#
+
+Bug1 - Abnormal money gain? 
+       ex:(100 + 2 = 400?)
+
 #[ Gambler Credits ]#
 
 me (github.com/xbuu),
