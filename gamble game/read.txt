@@ -1,3 +1,15 @@
-hi
+#[ Gambler Game ]#
 
-this doesnt gamble real money
+simple fun game
+requested by a 
+friend
+
+#[ Gambler Updates ]#
+
+v1.01 - Improved stuff
+
+#[ Gambler Credits ]#
+
+me (github.com/xbuu),
+
+henry (the person that suggested this)

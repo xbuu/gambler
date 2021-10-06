@@ -11,7 +11,6 @@ suggested by henry
 money = 500
 
 def gambler():
-    print(f"Current Balance: {money}")
     gamble = int(input("Enter the money you want to gamble: "))
     winorlose = ["ya win", "ya lose"]
 
@@ -19,18 +18,27 @@ def gambler():
 
     if gamble >= money:
         os.system("cls")
-        print("YOU LOSE!!!")
-        print("lmao idiot u gambled too much")
-        time.sleep(2)
+        print("You lost the gamble.")
+        print('-------------------')
+        result = money - gamble
+        print("Current Balance is:")
+        print(result)
+        print('-------------------')
+        print("You gambled a little \ntoo much.")
+        time.sleep(5)
     else:
         os.system("cls")
         if win == False:
-            print("you lost")
+            print("You lost the gamble.")
+            print('-------------------')
             result = money-gamble
+            print("Current Balance is:")
             print(result)
         else:
-            print("you won")
+            print("You won the gamble!")
+            print('-------------------')
             result = money+gamble
+            print("Current Balance is:")
             print(result)
         gambler()
 
